@@ -1,1 +1,13 @@
+// 共通設定
 @import "./reset";
+@import "config/color";
+// @import "modules/flash";
+@import "config/setting";
+
+// 部分テンプレート
+@import "modules/topheader";
+
+// スライダー
+@import "modules/slick-theme";
+@import "modules/slick";
+@import "modules/carousel";
