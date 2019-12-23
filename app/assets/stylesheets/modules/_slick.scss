@@ -107,36 +107,20 @@
         background-size: contain;
         background-position:center center;
     }
-    .slide_img_camp{
-        background-image: image-url("top-banner-camp.jpg");
+    .slide_img_image1{
+        background-image: image-url("topimage1.jpg");
     }
-    .slide_img_info{
-        background-image: image-url("top-banner-info.jpg");
-        &__box{
-            position: relative;
-            width: 860px;
-            margin: 0 auto;
-            padding: 20px 40px;
-            &__rightimg{
-                position: absolute;
-                top: 0px;
-                right: 0px;
-            }
-            &__title{
-                font-size: 60px;
-                font-weight: 600;
-                margin-bottom: 20px;
-                line-height: 1.4;
-            }
-            &__sub{
-                font-size: 18px;
-            }
-            &__imgs{
-                display: flex;
-            }
-            &__img{
-                margin: 10px 10px 0 0;
-            }
-        }
+    .slide_img_image2{
+        background-image: image-url("topimage2.jpg");
+    }
+    .slide_img_image3{
+        background-image: image-url("topimage3.jpg");
+    }
+    .image_text{
+        color: white;
+        font-size: 60px;
+        margin-top: 150px;
+        text-align:center;
+        text-shadow:-2px -2px 3px black;
     }
 }

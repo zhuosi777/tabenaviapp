@@ -1,0 +1,11 @@
+%section.search-sec
+  .container
+    %form{:action => "{% url 'techapp:search' %}", :method => "GET", :name => "searchform"}
+      %select.form-control.search-slt{:name => "pref"}
+        %option{:value => ""} 都道府県
+        %option{:value => "{{item.pref}}"}
+      %select.form-control.search-slt{:name => "category_l"}
+        %option{:value => ""} カテゴリ
+        %option{:value => "{{item.category_l}}"}
+      %input.form-control.search-slt{"aria-label" => "Search", :name => "freeword", :placeholder => "フリーワード", :type => "text"}
+      %button.btn.search-btn{:type => "submit"} 検索
